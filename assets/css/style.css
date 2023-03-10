@@ -20,6 +20,10 @@ body {
 	color: white;
 }
 
+a {
+	color: #00ff41;
+}
+
 #banner {
 	background-attachment: scroll;
 	background-position: center center;
@@ -47,9 +51,51 @@ body {
 #content {
 	min-height: 100vh;
 	margin: 3em 10% 10% 10%;
+	font-size: 18px;
+	text-align: justify;
+}
+
+#content p {
+	padding-bottom: 1.5em;
+}
+
+#gallery {
+	text-align: left;
+}
+
+#gallery img {
+	opacity: 0.8;
+	width: 64px;
+}
+
+#gallery img:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+#selected-img {
+	margin-top: 1em;
+	width: 100%;
 }
 
 .cmd-head {
+	color: #00ff41;
 	font-family: Source;
 	padding-bottom: 0.5em;
+}
+
+.highlighted {
+	background-color: #333;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+.highlighted p {
+	padding-bottom: 0 !important;
+}
+
+@media screen and (max-width: 1000px) {
+	#content {
+		text-align: left;
+	}
 }
