@@ -1,3 +1,3 @@
-# "Hack the Power!" Website
+# "Hack the Planet!" Website
 
-View at [hackthepower.shawnd.xyz](https://hackthepower.shawnd.xyz).
+View at [hacktheplanet.shawnd.xyz](https://hacktheplanet.shawnd.xyz).
