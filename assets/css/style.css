@@ -78,6 +78,10 @@ a {
 	width: 100%;
 }
 
+#selected-img-target {
+	width: 100%;
+}
+
 .cmd-head {
 	color: #00ff41;
 	font-family: Source;
